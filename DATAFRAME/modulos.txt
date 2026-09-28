@@ -1,0 +1,69 @@
+Validação:
+    verifica_colunas() - ok
+    verifica_tipos_colunas() - ok
+    verifica_nulos() - ok
+    verifica_duplicados() - ok
+    verifica_valores_permitidos()
+    verifica_dataframe_vazio()
+    verifica_chave_unica()
+
+Informações Gerais:
+    resumo_dataframe()
+    estatisticas_colunas()
+    contagem_nulos()
+    contagem_unicos()
+    memoria_dataframe()
+    perfil_colunas()
+
+Limpeza:
+    remover_espacos_colunas() - ok
+    padronizar_nomes_colunas() - ok
+    remover_duplicados() - ok
+    remover_linhas_vazias() - ok
+    preencher_nulos() - ok
+    converter_datas() - ok
+
+Colunas:
+    renomear_colunas() - ok
+    adicionar_coluna_constante() -
+    reordenar_colunas() - 
+    selecionar_colunas() - ok
+    remover_colunas() - ok
+
+Filtros:
+    filtrar_nulos()
+    filtrar_por_valor()
+    filtrar_intervalo_datas()
+    filtrar_texto()
+
+Datas:
+    extrair_ano() - ok
+    extrair_mes() - ok
+    extrair_dia() - ok
+    dias_entre_datas() - ok
+    coluna_atrasada() - ok 
+
+Comparação:
+    comparar_dataframes()
+    comparar_colunas()
+    encontrar_registros_novos()
+    encontrar_registros_removidos()
+
+Exportação:
+    exportar_excel() - OK
+    exportar_csv() - OK
+    exportar_parquet() - OK
+
+Qualidade de Dados:
+    relatorio_qualidade()
+    score_completude()
+    score_consistencia()
+    score_unicidade()
+
+Muito úteis em projetos corporativos:
+    validar_layout_excel()
+    validar_colunas_obrigatorias()
+    validar_tipos_obrigatorios()
+    gerar_log_importacao()
+    gerar_resumo_processamento()
+    obter_linhas_com_erro()
