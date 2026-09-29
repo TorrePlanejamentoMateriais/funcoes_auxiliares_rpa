@@ -1,0 +1,182 @@
+# ============================================================
+# Projeto: FuncoesAuxiliares
+# Descricao: Arquivos e pastas ignorados pelo Git
+# ============================================================
+
+# ------------------------------------------------------------
+# Python: cache e arquivos compilados
+# ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+
+# Cache de ferramentas Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.hypothesis/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# ------------------------------------------------------------
+# Ambientes virtuais
+# ------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+venv.bak/
+env.bak/
+
+# ------------------------------------------------------------
+# Empacotamento e distribuicao
+# ------------------------------------------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# PyInstaller
+*.spec
+*.manifest
+
+# ------------------------------------------------------------
+# Variaveis de ambiente, credenciais e certificados
+# ------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+secrets.json
+credentials.json
+config.local.json
+*.pem
+*.key
+*.pfx
+*.p12
+
+# ------------------------------------------------------------
+# IDEs e editores
+# ------------------------------------------------------------
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------------------------------------------
+# Sistema operacional
+# ------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ------------------------------------------------------------
+# Logs, relatorios e arquivos temporarios
+# ------------------------------------------------------------
+*.log
+logs/
+log/
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.swp
+*.swo
+~$*
+
+# ------------------------------------------------------------
+# Jupyter Notebook
+# ------------------------------------------------------------
+.ipynb_checkpoints/
+
+# ------------------------------------------------------------
+# Excel e Microsoft Office: arquivos temporarios
+# ------------------------------------------------------------
+~$*.xlsx
+~$*.xlsm
+~$*.xls
+~$*.docx
+~$*.pptx
+*.xlk
+
+# ------------------------------------------------------------
+# Bancos de dados locais
+# ------------------------------------------------------------
+*.db
+*.sqlite
+*.sqlite3
+
+# ------------------------------------------------------------
+# Selenium e navegadores
+# ------------------------------------------------------------
+.geckodriver/
+.chromedriver/
+msedgedriver.exe
+chromedriver.exe
+geckodriver.exe
+
+# Perfis locais dos navegadores
+chrome-profile/
+edge-profile/
+firefox-profile/
+user-data-dir/
+
+# Downloads temporarios das automacoes
+*.crdownload
+*.part
+*.download
+
+# ------------------------------------------------------------
+# Streamlit
+# ------------------------------------------------------------
+.streamlit/secrets.toml
+
+# ------------------------------------------------------------
+# Dados locais, saidas e arquivos gerados
+# Descomente somente as pastas que nao devem ir para o Git.
+# ------------------------------------------------------------
+# data/
+# dados/
+# input/
+# inputs/
+# output/
+# outputs/
+# saida/
+# saidas/
+# downloads/
+# temporarios/
+# temp/
+
+# Arquivos de dados potencialmente grandes ou sensiveis
+# Descomente caso esses formatos sejam apenas entradas/saidas locais.
+# *.csv
+# *.xlsx
+# *.xlsm
+# *.xls
+# *.parquet
+# *.feather
+# *.json
+# *.zip
+
+# ------------------------------------------------------------
+# Arquivos locais especificos do projeto
+# ------------------------------------------------------------
+local/
+config/local/
